@@ -14,7 +14,7 @@
     </header>
 
     <div class="filters">
-      <button id="getImageBtn">Fetch Space Images</button>
+  <button id="get-images-btn">Fetch Space Images</button>
     </div>
 
     <div id="gallery" class="gallery">
@@ -25,6 +25,16 @@
     </div>
   </div>
 
+  <!-- Modal for image details -->
+  <div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span id="modal-close" class="modal-close">&times;</span>
+      <img id="modal-img" src="" alt="Large view" />
+      <h2 id="modal-title"></h2>
+      <p id="modal-date"></p>
+      <p id="modal-explanation"></p>
+    </div>
+  </div>
   <script src="js/script.js"></script>
 </body>
 </html>
